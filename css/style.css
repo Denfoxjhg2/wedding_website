@@ -1,0 +1,912 @@
+@font-face {
+    font-family: gara;
+    src: url(../fonts/EBGaramond-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: mont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.size-container
+{
+    width: 1622px;
+    height: auto;
+    margin: 0 auto;
+}
+.header
+{
+    background-color: #F5F6F8;
+    width: 100%;
+    height: 170px;
+}
+.header-content
+{
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wave
+{
+    background: url("../img/wave_horiz.png") no-repeat center;
+    background-size:contain;
+    width: 500px;
+    height: 50px;
+}
+.headtwo
+{
+    transform: scaleX(-1);
+}
+.header-text
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1D3C59;
+}
+.main-container
+{
+    background-color: #F5F6F8;
+    width: 100%;
+    height: 793px;
+}
+.main-content
+{
+    height: 793px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.wed-time
+{
+    display: flex;
+    width: 930px;
+    height: 204px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: 30px;
+}
+.num
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 202px;
+    color: #1D3C59;
+    height: 204px;
+}
+.ellipse
+{
+    width: 25px;
+    height: 30px;
+}
+.photos
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+.corner-photo
+{
+    height: 360px;
+    width: 260px;
+}
+.mid-photo
+{
+    height: 500px;
+    width: 400px;
+}
+.speach
+{
+    font-family: mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #496C88;
+    width: 776px;
+    height: 78px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+.left-wave
+{
+    height: 210px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 583px;
+    margin-right: 1620px;
+}
+.right-wave
+{
+    height: 210px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 583px;
+    margin-left: 1620px;
+}
+.plan-container
+{
+    height: 963px;
+    width: 100%;
+    background: url("../img/prog_back.png") no-repeat center;
+}
+.plan-content
+{
+    height: 963px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.plan-text
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: center;
+    color: #F5F6F8;
+    height: 90px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+.schedule
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.time
+{
+    width: 260px;
+    height: 108px;
+    font-family: gara;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 108px;
+    text-align: center;
+    color: #F5F6F8;
+}
+.info
+{
+    height: 98px;
+    width: 300px;
+    font-family: mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #F5F6F8;
+}
+.event-ico
+{
+    margin-top: 26px;
+    width: 80px;
+    height: 80px;
+}
+.sched-block
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sched-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divider
+{
+    border: 2px solid #FFFFFF;
+    height: 90px;
+}
+.place-container
+{
+    background-color: #F5F6F8;
+    width: 100%;
+    height: 963px;
+}
+.corners
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.one
+{
+    transform: rotate(-270deg);
+}
+.two
+{
+    transform: rotate(-180deg);
+}
+.four
+{
+    transform: rotate(-90deg);
+}
+.corner 
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.waves-vert
+{
+    display: flex;
+    width: 1820px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+}
+.wave1
+{
+    height: 200px;
+    width: 30px;
+}
+.wave2
+{
+    height: 200px;
+    width: 30px;
+    transform: scaleY(-1);
+}
+.place-header
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: center;
+    color: #1D3C59;
+    width: 700px;
+    height: 90px;
+    margin-bottom: 50px;
+}
+.place
+{
+    width: 1288px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adress
+{
+    font-family: mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1D3C59;
+}
+.place-img
+{
+    width: 400px;
+    height: 500px;
+}
+.place-btn
+{
+    background: #1D3C59;
+    border-radius: 20px;
+    font-family: mont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    width: 240px;
+    height: 80px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.time-container
+{
+    height: 963px;
+    width: 100%;
+    background: url("../img/time_back.png") no-repeat center;
+}
+.time-header
+{
+    font-family: mont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #DDE1E4;
+    width: 700px;
+    height: 78px;
+    margin-bottom: 30px;
+}
+.timer
+{
+    display: flex;
+}
+.int
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 158px;
+    text-align: center;
+    color: #F5F6F8;
+    width: 300px;
+    height: 160px;
+}
+.int-text
+{
+    font-family: mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #F5F6F8;
+    width: 300px;
+    height: 50px;
+}
+.digit
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dress-container
+{
+    height: 963px;
+    width: 100%;
+    background-color:#F5F6F8;
+}
+.dress-header
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: center;
+    color: #1D3C59;
+    width: 700px;
+    height: 90px;
+}
+.dress-info
+{
+    font-family: mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #496C88;
+    height: 118px;
+    width: 900px;
+    margin-bottom: 50px;
+}
+.colors
+{
+    height: 100px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle
+{
+    width: 100px;
+    height: 100px;
+}
+.end-container
+{
+    height: 963px;
+    width: 100%;
+    background-color: #C0D7E9;
+}
+.head
+{
+    font-family: mont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #1D3C59;
+}
+.number
+{
+    margin-top: 28px;
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #1D3C59;
+}
+.contacts
+{
+    display: flex;
+    width: 660px;
+    height: 148px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cont-block
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.vk-ico
+{
+    width: 100px;
+    height: 100px;
+    background: url("../img/vk_logo.png") no-repeat center;
+    border: none;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.footer
+{
+    width: 100%;
+    height: 140px;
+    background-color: #496C88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.credits
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #DDE1E4;
+}
+.dev-dm
+{
+    font-family: gara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #DDE1E4;
+    text-decoration: none;
+}
+.dress-header-block
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.waves 
+{
+    width: 80px;
+    height: 16px;
+    margin-top: 8px;
+}
+.dresscode1
+{
+    background: url("../img/wave2.png") no-repeat center;
+    background-size:contain;
+}
+.dresscode2
+{
+    background: url("../img/wave2.png") no-repeat center;
+    background-size:contain;
+    transform: scaleX(-1);
+}
+.invite1
+{
+    background: url("../img/wave1.png") no-repeat center;
+    background-size:contain;
+}
+.invite2
+{
+    background: url("../img/wave1.png") no-repeat center;
+    background-size:contain;
+    transform: scaleX(-1);
+}
+::-webkit-scrollbar 
+{
+    width: 0;
+    background: transparent;
+}
+@media (max-width: 520px){
+    .main-container .plan-container .place-container .time-container .dress-container .end-container .header .footer
+    {
+        width: auto;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+    .size-container{
+        width: auto;
+        height: auto;
+    }
+    .header-content
+    {
+        padding-top: 40px;
+        display: flex;
+    }
+    .wave 
+    {
+        width: 50px;
+        height: 10px;
+        background: url("../img/smallwave.png") no-repeat center;
+        background-size:contain;
+    }
+    .header-text
+    {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        text-align:center;
+        height: 108px;
+        width: 186px;
+    }
+    .headone
+    {
+        margin-left: 40px;
+    }
+    .headtwo
+    {
+        margin-right: 40px;
+    }
+    .wed-time
+    {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        position: static;
+        width: auto;
+        height: 280px;
+    }
+    .num
+    {
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 95px;
+    }
+    .main-content
+    {
+        width: auto;
+    }
+    .ellipse
+    {
+        width: 8px;
+        height: 10px;
+    }
+    .main-container
+    {
+        height: 1190px;
+        background: url("../img/main_mob.png") center;
+        background-size: cover;
+        background-color: unset;
+    }
+    .speach
+    {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        position: absolute;
+        width: 280px;
+        height: 66px;
+        margin-top: 480px;
+    }
+    .photos
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 0px;
+    }
+    .mid-photo
+    {
+        width: 260px;
+        height: 360px;
+    }
+    .left-wave
+    {
+        width: 0;
+        opacity: 0;
+        margin-top: unset;
+        margin-right: unset;
+    }
+    .right-wave
+    {
+        opacity: 0;
+        width: 0;
+        margin-top: unset;
+        margin-left: unset;
+    }
+    .corner-photo
+    {
+        width: 0;
+        opacity: 0;
+        margin-top: unset;
+        margin-right: unset;
+    }
+    .plan-content
+    {
+        height: auto;
+        width: auto;
+    }
+    .plan-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .plan-text
+    {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        height: 36px;
+        width: 204px;
+    }
+    .schedule
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 660px;
+        width: 240px;
+    }
+    .sched-block
+    {
+        width: 240px;
+        height: 100px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .sched-text
+    {
+        justify-self: right;
+        align-items: unset;
+    }
+    .time
+    {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+        width: 80px;
+        height: 36px;
+    }
+    .info
+    {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        width: 126px;
+        height: 48px;
+        text-align: left;
+    }
+    .event-ico
+    {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-self: normal;
+        margin-top: unset;
+    }
+    .divider
+    {
+        align-self: flex-start;
+        margin-left: 22px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .place-header
+    {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 32px;
+        width: auto;
+        height: auto;
+    }
+    .place-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: center / contain no-repeat url("../img/place_mob.png");
+        height: 850px;
+        background-size: cover;
+        background-color: unset;
+    }
+    .place-img
+    {
+        width: 240px;
+        height: 340px;
+    }
+    .place
+    {
+        flex-direction: column;
+        gap: 32px;
+        width: auto;
+    }
+    .adress 
+    {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .place-btn
+    {
+        height: 60px;
+        width: 180px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .corners
+    {
+        width: 0;
+        opacity: 0;
+    }
+    .corner
+    {
+        width: 0;
+        opacity: 0;
+    }
+    .waves-vert
+    {
+        width: 0;
+        opacity: 0;
+    }
+    .time-header
+    {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        width: auto;
+    }
+    .timer 
+    {
+        display: flex;
+        flex-direction: column;
+        height: 580px;
+        justify-content: space-between;
+    }
+    .int
+    {
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 92px;
+        height: auto;
+    }
+    .int-text
+    {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .time-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dress-header
+    {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 36px;
+        margin-bottom: unset;
+        width: 260px;
+    }
+    .dress-info
+    {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 24px;
+        width: 310px;
+        height: 120px;
+    }
+    .colors
+    {
+        width: 278px;
+    }
+    .circle
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .dress-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts
+    {
+        display: flex;
+        flex-direction: column;
+        height: 260px;
+        width: auto;
+    }
+    .number
+    {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .vk-ico
+    {
+        margin-top: 20px;
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    .head
+    {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 22px;
+    }
+    .end-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer
+    {
+        height: 200px;
+    }
+    .dev-dm
+    {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        width: 192px;
+        text-align: center;
+    }
+    .waves 
+    {
+        width: 50px;
+        height: 10px;
+        margin-bottom: 46px;
+    }
+    .dress-header-block
+    {
+        margin-bottom: unset;
+    }
+}

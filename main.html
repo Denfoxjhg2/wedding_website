@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wedding website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="size-container">
+                <div class="header-content">
+                    <div class="headone wave"></div>
+                    <h1 class="header-text">АЛЕКСЕЙ & ЕКАТЕРИНА</h1>
+                    <div class="headtwo wave"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="size-container">
+                <div class="main-content">
+                    <div class="wed-time">
+                        <h1 class="num">05</h1>
+                        <img src="./img/ellipse.png" alt="dote" class="ellipse">
+                        <h1 class="num">07</h1>
+                        <img src="./img/ellipse.png" alt="dote" class="ellipse">
+                        <h1 class="num">2025</h1>
+                    </div>
+                    <div class="photos">
+                        <img src="./img/example.png" alt="photo" class="corner-photo">
+                        <img src="./img/example.png" alt="photo" class="mid-photo">
+                        <img src="./img/example.png" alt="photo" class="corner-photo">
+                    </div>
+                    <h1 class="speach">Присоединяйтесь к нам в путешествии любви, радости и вечного счастья.</h1>
+                    <img src="./img/wave_corner_1.png" alt="wave" class="left-wave">
+                    <img src="./img/wave_corner_2.png" alt="wave" class="right-wave">
+                </div>
+            </div>
+        </div>
+        <div class="plan-container">
+            <div class="size-container">
+                <div class="plan-content">
+                    <h1 class="plan-text">Программа дня</h1>
+                    <div class="schedule">
+                        <div class="sched-block">
+                            <div class="sched-text">
+                                <h1 class="time">15:30</h1>
+                                <p class="info">Сбор гостей Фуршет</p>
+                            </div>
+                            <img src="./img/pin_ico.png" alt="pin" class="event-ico">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="sched-block">
+                            <div class="sched-text">
+                                <h1 class="time">16:00</h1>
+                                <p class="info">Выездная регистрация</p>
+                            </div>
+                            <img src="./img/rings_ico.png" alt="rings" class="event-ico">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="sched-block">
+                            <div class="sched-text">
+                                <h1 class="time">17:00</h1>
+                                <p class="info">Праздничный банкет</p>
+                            </div>
+                            <img src="./img/fork_ico.png" alt="fork" class="event-ico">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="sched-block">
+                            <div class="sched-text">
+                                <h1 class="time">22:00</h1>
+                                <p class="info crack">After<br>party</p>
+                            </div>
+                            <img src="./img/crackers_ico.png" alt="crackers" class="event-ico">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="place-container">
+            <div class="size-container">
+                <div class="plan-content">
+                    <div class="corners">
+                        <img src="./img/rectangle.png" alt="corner" class="corner one">
+                        <img src="./img/rectangle.png" alt="corner" class="corner two">
+                    </div>
+                    <h1 class="place-header">Место проведения</h1>
+                    <div class="place">
+                        <p class="adress">Кафе-парк<br>“Теремок”</p>
+                        <img src="./img/place.png" alt="place" class="place-img">
+                        <p class="adress">г. Ижевск<br>Кирова, 10</p>
+                    </div>
+                    <div class="waves-vert">
+                        <img src="./img/wave_vert.png" alt="wave" class="wave1">
+                        <img src="./img/wave_vert.png" alt="wave" class="wave2">
+                    </div>
+                    <input type="button" value="Как доехать" class="place-btn" onclick = "location.href = 'https://yandex.ru/maps/?um=constructor%3A44982673c25035449e0eaf9177560331ac817f248cecb61ef45f1d7a0e6ee724&source=constructorLink'">
+                    <div class="corners">
+                        <img src="./img/rectangle.png" alt="corner" class="corner three">
+                        <img src="./img/rectangle.png" alt="corner" class="corner four">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="time-container">
+            <div class="size-container">
+                <div class="plan-content">
+                    <h1 class="time-header">Время до торжества:</h1>
+                    <div class="timer">
+                        <div class="digit">
+                            <h1 class="int" id="day">00</h1>
+                            <h2 class="int-text" id="day-text"></h2>
+                        </div>
+                        <div class="digit">
+                            <h1 class="int" id="hour">00</h1>
+                            <h2 class="int-text" id="hour-text"></h2>
+                        </div>
+                        <div class="digit">
+                            <h1 class="int" id="minute">00</h1>
+                            <h2 class="int-text" id="minute-text"></h2>
+                        </div>
+                        <div class="digit">
+                            <h1 class="int" id="second">00</h1>
+                            <h2 class="int-text" id="second-text"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dress-container">
+            <div class="size-container">
+                <div class="plan-content">
+                    <div class="dress-header-block">
+                        <div class="dresscode1 waves"></div>
+                        <h1 class="dress-header">Дресс-код</h1>
+                        <div class="dresscode2 waves"></div>
+                    </div>
+                    <div class="waves-vert">
+                        <img src="./img/wave_vert.png" alt="wave" class="wave1">
+                        <img src="./img/wave_vert.png" alt="wave" class="wave2">
+                    </div>
+                    <p class="dress-info">Вы будете ярко приукрашивать<br>данное торжество, если в вашем наряде<br>будут присутствовать оттенки нашей цветовой гаммы</p>
+                    <div class="colors">
+                        <img src="./img/white.png" alt="circle" class="circle">
+                        <img src="./img/light-blue.png" alt="circle" class="circle">
+                        <img src="./img/blue.png" alt="circle" class="circle">
+                        <img src="./img/dark-blue.png" alt="circle" class="circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-container">
+            <div class="size-container">
+                <div class="plan-content">
+                    <div class="dress-header-block end">
+                        <div class="invite1 waves"></div>
+                        <h1 class="dress-header">Ваше присутствие</h1>
+                        <div class="invite2 waves"></div>
+                    </div>
+                    <div class="waves-vert">
+                        <img src="./img/wave_vert_2.png" alt="wave" class="wave1">
+                        <img src="./img/wave_vert_2.png" alt="wave" class="wave2">
+                    </div>
+                    <p class="dress-info">Будем очень рады видеть вас!<br>Просим подтвердить своё<br>присутствие на торжестве до<br>05.05.25</p>
+                    <div class="contacts">
+                        <div class="cont-block">
+                            <h1 class="head">Через Вконтакте:</h1>
+                            <input type="button" class="vk-ico" onclick = "location.href = 'https://vk.com/katerina_dmtrvna'">
+                        </div>
+                        <div class="cont-block">
+                            <h1 class="head">По телефону:</h1>
+                            <p class="number">89508321054</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="https://t.me/bruhmomento77" class="dev-dm">Designed and developed by Daniel Komyshev</a>
+        </div>
+    </footer>
+</body>
+</html>
