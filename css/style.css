@@ -106,7 +106,8 @@
 .mid-photo
 {
     height: 500px;
-    width: 400px;
+    width: 380px;
+    object-fit: cover;
 }
 .speach
 {
@@ -403,7 +404,7 @@
     line-height: 39px;
     text-align: center;
     color: #496C88;
-    height: 118px;
+    height: 140px;
     width: 900px;
     margin-bottom: 50px;
 }
@@ -838,7 +839,7 @@
         font-size: 22px;
         line-height: 24px;
         width: 310px;
-        height: 120px;
+        height: auto;
     }
     .colors
     {
